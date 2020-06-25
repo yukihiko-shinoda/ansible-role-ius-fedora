@@ -5,4 +5,4 @@
 
 - name: install ius repository
   yum:
-    name: https://rhel{{ rhel_version }}.iuscommunity.org/ius-release.rpm
+    name: https://repo.ius.io/ius-release-el{{ rhel_version }}.rpm
